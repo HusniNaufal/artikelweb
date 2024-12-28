@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dasar Web Development | NFunc</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><b>NF</b>unc</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+    <!--Jumbotron-->
+    <div class="main container mt-5">
+      <h2><b>HTML, CSS, dan JavaScript: Konsep Dasar Pengembangan Web</b></h2>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Programming</a></li>
+          <li class="breadcrumb-item active" aria-current="page">WebProgramming</li>
+        </ol>
+      </nav>
+      <img src="img/web-dev.webp" alt="Banner webdev" class="banner-img" />
+      <p>
+        Pernah melihat situs seperti Detik, Kompas atau artikel lainnya? Situs-situs ini sering kali memukau kita dengan fitur canggih seperti berita terbaru yang selalu diperbarui, menu navigasi yang mudah digunakan, hingga desain
+        responsif yang tetap terlihat menarik di perangkat apa pun. Penasaran bagaimana cara membuatnya? Pada artikel ini, kita akan menjelajahi dasar-dasar pengembangan web dengan mempelajari tiga teknologi inti dalam pengembangan web
+        yaitu: HTML, CSS, dan JavaScript.
+      </p>
+      <h2 class="mt-5">Apa Itu HTML ?</h2>
+      <p>
+        HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk membuat struktur dasar sebuah halaman web. HTML memungkinkan pengembang untuk menentukan elemen-elemen seperti judul, paragraf, gambar, tautan, tabel, dan
+        lainnya. Jika diibaratkan manusia HTML sama seperti dengan kerangka tubuh
+      </p>
+      <h3>Contoh Kode HTML :</h3>
+      <img src="img/html.jpg" style="margin-top: -10px; margin-bottom: -10px" />
+      <h2 class="mt-5">Apa Itu CSS ?</h2>
+      <p>
+        CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mengatur tampilan dan gaya sebuah halaman web. CSS memungkinkan pengembang untuk menentukan warna, font, tata letak, dan elemen visual lainnya. Jika diibaratkan dengan
+        manusia CSS sama seperti dengan pakaian yang digunakan
+      </p>
+      <h4>Cara Menggunakan CSS pada HTML :</h4>
+      <p>Dalam praktiknya penggunaan css pada html ada beberapa cara, antara lain <b>INLINE, INTERNAL, EXTERNAL</b></p>
+      <p><b>1. INLINE</b></p>
+      <img src="img/css-konektorinline.jpg" style="margin-top: -20px; margin-bottom: -10px" alt="" srcset="" />
+      <p>pada kasus ini kita menggunakan atribut style di dalam tag html</p>
+      <p><b>2. INTERNAL</b></p>
+      <img src="img/css-konektorinternal.jpg" style="margin-top: -20px; margin-bottom: -10px" alt="" srcset="" />
+      <p>pada kasus ini kita menggunakan tag style di dalam tag html</p>
+      <p><b>3. EXTERNAL</b></p>
+      <img src="img/css-konektoreksternal.jpg" style="margin-top: -20px; margin-bottom: -10px" alt="" srcset="" />
+      <p>pada kasus ini kita menggunakan tag link untuk menghubungkan file CSS</p>
+
+      <h3 class="mt-5">Contoh selektor dalam CSS :</h3>
+      <p><b>1. Selektor Elemen</b></p>
+      <img src="img/css.jpg" style="margin-top: -20px; margin-bottom: -10px" />
+      <p>Pada situasi ini maka seluruh elemen yang memiliki Tag "P" akan berubah menjadi biru</p>
+      <p><b>2. Selektor ID</b></p>
+      <img src="img/css-selektorid.jpg" style="margin-top: -20px; margin-bottom: -10px" />
+      <p>Pada situasi ini maka seluruh elemen yang memiliki ID "header" akan memiliki warna background gray</p>
+      <p><b>3. Selektor Class</b></p>
+      <img src="img/css-selektorclass.jpg" style="margin-top: -20px; margin-bottom: -10px" />
+      <p>Pada situasi ini maka seluruh elemen yang memiliki Class "main" akan berubah menjadi hijau</p>
+
+      <h2 class="mt-5">Apa Itu JavaScript ?</h2>
+      <p>
+        JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi lebih interaktif. Dengan JavaScript, pengembang dapat menambahkan fitur seperti validasi formulir, animasi, kontrol multimedia, dan banyak lagi.
+        Jika diibaratkan dengan manusia JavaScript sama seperti dengan otak yang mengatur seluruh tubuh
+      </p>
+      <h4>Cara Menggunakan JavaScript pada HTML :</h4>
+      <p>Dalam praktiknya penggunaan JavaScript pada html ada beberapa cara, antara lain <b>INLINE, INTERNAL, EXTERNAL</b></p>
+      <p><b>1. INLINE</b></p>
+      <img src="img/javascript-konektorinline.jpg" style="margin-top: -20px; margin-bottom: -10px" alt="" srcset="" />
+      <p>pada kasus ini kita menggunakan atribut onclick di dalam tag html</p>
+      <p><b>2. INTERNAL</b></p>
+      <img src="img/javascript-konektorinternal.jpg" style="margin-top: -20px; margin-bottom: -10px" alt="" srcset="" />
+      <p>pada kasus ini kita menggunakan tag script di dalam tag html</p>
+      <p><b>3. EXTERNAL</b></p>
+      <img src="img/javascript-konektoreksternal.jpg" style="margin-top: -20px; margin-bottom: -10px" alt="" srcset="" />
+      <p>pada kasus ini kita menggunakan properti src untuk menghubungkan file JavaScript</p>
+    </div>
+
+    <footer class="container bg-dark text-light">
+      <p class="container text-center">
+        This website is made with
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+        </svg>
+        by <b>NFHOSTING</b>
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
